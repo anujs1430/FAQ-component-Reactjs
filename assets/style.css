@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.faq-box {
+    background-color: gray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    color: rgb(0, 255, 234);
+}
+
+.ques {
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    color: purple;
+    transition: ease-in-out 0.3s;
+
+}
+
+.ans {
+    margin: 15px 0 5px 50px;
+    color: yellow;
+}
+
+.arrow {
+    transform: rotate(90deg);
+    transition: ease-in-out 0.3s;
+}
